@@ -3,7 +3,7 @@
 ## Description
 
 This app lets you add expenses and income and graphs your net worth throughout those ups and downs. The intention is to show you if you are saving or losing money.
-![Screenshot of the budget tracking app  with various expenses and deposts](./screenshot.png)
+![Screenshot of the budget tracking app  with various expenses and deposts](./screenshot/screenshot.PNG)
 
 - [Description](#description)
 - [Installation](#installation)
