@@ -15,7 +15,7 @@ This app lets you add expenses and income and graphs your net worth throughout t
 
 ## Installation
 
-You can download it locally from the github repo, or you can visit the deployed site [here](link here).
+You can download it locally from the github repo, or you can visit the deployed site [here](https://lit-thicket-68789.herokuapp.com/).
 
 ## Usage
 
