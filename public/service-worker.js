@@ -1,7 +1,7 @@
 const CACHE_NAME = "my-budget";
 const DATA_CACHE_NAME = "budget-data-cache";
 
-const FILES_TO_BE_CACHED = [
+const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "./css/style.css",
@@ -22,7 +22,7 @@ self.addEventListener("install", function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       console.log("Your files were pre-cached successfully! ✅");
-      return cache.addAll(FILES_TO_BE_CACHED);
+      return cache.addAll(FILES_TO_CACHE);
     })
   );
   self.skipWaiting();

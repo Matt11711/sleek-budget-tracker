@@ -51,11 +51,10 @@ function uploadBudget() {
       })
         .then((response) => response.json())
         .then(() => {
-// then clears the store
+          // then clears the store
           const transaction = db.transaction(["new_budget"], "readwrite");
 
           const store = transaction.objectStore("new_budget");
-
           store.clear();
         });
     }
